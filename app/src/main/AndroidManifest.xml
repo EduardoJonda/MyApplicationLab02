@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.a4.c15.segunda.eduardo.jonda.myapplicationlab2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtontActivity" />
+        <activity android:name=".SwitchButtonActivity" />
+        <activity android:name=".ToggleButtonActivity" />
+        <activity android:name=".RatingBarActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".DatePickerActivity" />
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".FloatingActionButtonActivity" />
+        <activity android:name=".FloatingLabelsActivity" />
+        <activity android:name=".SeekBarActivity" />
+        <activity android:name=".SimpleDialogActivity" />
+        <activity android:name=".CustomAlertDialogActivity" />
+        <activity android:name=".SnackbarActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".VideoViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".SearchViewActivity" />
+        <activity android:name=".CalendarViewActivity"></activity>
+    </application>
+
+</manifest>
